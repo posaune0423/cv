@@ -31,7 +31,7 @@
     - Building #styled-link("https://www.daiko.ai/en")[Daiko] in a *2-person* founding team, shipping a Solana-native trading product with wallet intelligence, AI-powered sell signals, and multi-surface delivery.
     - Implemented Solana DEX indexers and built the product as a solo engineer across finance and AI, developing strong working knowledge of Solana, DEXs, stablecoins, and traditional financial market structures alongside agents, notification pipelines, and trading workflows.
 
-    === Contract & game enginner \
+    === Contract & game engineer \
     _PixeLAW_\
     #term[Aug 2024 --- 2025][Remote]
 

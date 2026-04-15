@@ -12,6 +12,7 @@ Realized = 'Realized'
 substituters = 'substituters'
 Fiber = 'Fiber'
 personalized = 'personalized'
+Heros = 'Heros'
 
 [files]
 extend-exclude = ['*.svg', "*.ttf", '*.css', '*.js', '*.html', '*.ts']
