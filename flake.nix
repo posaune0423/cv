@@ -105,7 +105,7 @@
         let
           pkgs = nixpkgs.legacyPackages.${system};
           cvFontPackages = [
-            pkgs.inter
+            pkgs.gyre-fonts
           ];
           typstFontArgs = builtins.concatStringsSep " " (
             map (fontPkg: "--font-path ${fontPkg}/share/fonts") cvFontPackages
@@ -149,7 +149,7 @@
         let
           pkgs = nixpkgs.legacyPackages.${system};
           cvFontPackages = [
-            pkgs.inter
+            pkgs.gyre-fonts
           ];
           typstFontArgs = builtins.concatStringsSep " " (
             map (fontPkg: "--font-path ${fontPkg}/share/fonts") cvFontPackages
@@ -226,7 +226,7 @@
         let
           pkgs = nixpkgs.legacyPackages.${system};
           cvFontPackages = [
-            pkgs.inter
+            pkgs.gyre-fonts
           ];
           typstFontPaths = builtins.concatStringsSep ":" (
             map (fontPkg: "${fontPkg}/share/fonts") cvFontPackages

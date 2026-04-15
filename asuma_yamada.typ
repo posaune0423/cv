@@ -28,55 +28,56 @@
     _Daiko Labs_\
     #term[Apr 2025 --- Present][Tokyo / New York]
 
-    - Building Daiko in a 2-person founding team, shipping a Solana-native trading product with wallet intelligence, AI-powered sell signals, and Telegram/PWA delivery.
-    - Owning product architecture and engineering end-to-end across agents, notification pipelines, trading workflows, and English-first product direction.
+    - Building #styled-link("https://www.daiko.ai/en")[Daiko] in a *2-person* founding team, shipping a Solana-native trading product with wallet intelligence, AI-powered sell signals, and multi-surface delivery.
+    - Implemented Solana DEX indexers and built the product as a solo engineer across finance and AI, developing strong working knowledge of Solana, DEXs, stablecoins, and traditional financial market structures alongside agents, notification pipelines, and trading workflows.
 
-    === Contract Engineer \
+    === Contract & game enginner \
     _PixeLAW_\
     #term[Aug 2024 --- 2025][Remote]
 
-    - Building p_dash and Pixelaw features across Cairo contracts, React frontends, and high-performance WebGL gameplay systems.
-    - Working on fully on-chain game logic and frontend systems in the Starknet / Redstone ecosystem, contributing to a USD 25K Starknet Foundation Seed Grant.
-    - Feeding implementation learnings and product feedback back into the Dojo ecosystem.
+    - Built product features across Cairo contracts, React frontends, and high-performance WebGL gameplay systems.
+    - Built fully on-chain game logic and frontend systems on Starknet, contributing to a *USD 25K* Starknet Foundation Seed Grant.
+    - Contributed commits to core libraries in the Dojo ecosystem, including dojo and dojo.js, while feeding implementation learnings back into the framework.
 
     === Software Engineer \
     _DeNA Co., Ltd._\
     #term[Apr 2024 --- Mar 2025][Tokyo, Japan]
 
-    - Built an internal AI workflow platform with permissions, auditing, and tool execution for safe enterprise LLM adoption.
-    - Extended Dify-based workflows with multimodal, RAG, and custom internal applications used by multiple business teams.
-    - Supported company-wide AI enablement through implementation, reusable templates, documentation, and internal advocacy.
+    - Built an internal AI platform at #styled-link("https://dena.com/intl/")[DeNA], one of Japan's largest gaming companies, with permissions, auditing, and tool execution, driving *40,000 hours* of company-wide productivity savings through safe enterprise LLM adoption.
+    - Extended Dify-based workflows with multimodal, RAG, and custom internal applications, and helped publish Dify-related OSS with the team that earned *200+ GitHub stars*.
+    - Supported company-wide AI enablement through reusable templates, documentation, internal advocacy, and production-grade implementations used by multiple business teams.
 
     === Tech Lead \
     _VELVETT PTE. LTD._\
     #term[Jun 2023 --- Mar 2024][Singapore / Remote]
 
-    - Led engineering for Unikura, an RWA marketplace, across product design, frontend, backend, and smart contract delivery.
-    - Drove serverless architecture and technical decision-making in a distributed English-speaking team during a leadership transition.
+    - Led engineering for #styled-link("https://app.unikura.xyz/")[Unikura], a global startup that raised *USD 3M*, across product design, frontend, backend, and smart contract delivery.
+    - Drove serverless architecture and technical decision-making in an international English-speaking team, generating *50,000+* on-chain transactions through the product.
 
     === Software Engineer \
     _Ango-ya LLC / VWBL Protocol_\
     #term[Dec 2021 --- 2023][Remote]
 
-    - Built TypeScript SDKs, demo apps, and smart contract implementations for the VWBL NFT access-control protocol.
+    - Built protocol implementations, TypeScript SDKs, demo apps, landing pages, and supporting tools for the #styled-link("https://vwbl-protocol.org/")[VWBL Protocol] NFT access-control protocol.
     - Worked across access-control flows, frontend and backend integration, package releases, and protocol-level enablement for client projects.
 
     === Frontend Engineer \
     _CoinOtaku Inc._\
     #term[May 2021 --- Mar 2022][Tokyo, Japan]
 
-    - Built NFT marketplace features from UI design through AWS-backed frontend delivery during the product launch phase.
-    - Owned frontend architecture, product UX, and blockchain-connected purchase and account flows across the core marketplace screens.
+    - Built an early NFT marketplace from UI design through AWS-backed frontend delivery during the product launch phase.
+    - Owned frontend architecture, product UX, and blockchain-connected purchase and account flows, including advanced fractionalized NFT marketplace features in the early market.
 
     == Awards & Speaking
 
+    - #styled-link("https://x.com/ProtocolCamp/status/2011649545470689371")[SMBC Nikko Track Winner, Protocol Camp]: Daiko won *USD 5K* from SMBC Nikko Securities, one of Japan's major securities firms, for advancing DeFi decision-making with AI-powered trading agents.
     - #styled-link("https://www.starknet.io/grants/seed-grants/")[Starknet Foundation Seed Grant] (USD 25K), Sep 2025 --- Present: Received funding for p_dash and Pixelaw, a fully on-chain game and Starknet protocol built with CairoVM.
     - #styled-link("https://arena.colosseum.org/projects/explore/daiko")[Colosseum Breakout Hackathon] AI Track 4th Place, Mar 2025 --- May 2025: Daiko AI placed 4th with personalized AI-powered sell signals for Solana traders.
     - #styled-link("https://www.youtube.com/watch?v=Oa37E_jVEo4&t=1916s")[Solana Developer Bootcamp 2026 - Session 1]: Spoke on the Solana Foundation main channel for Solana Japan.
 
     == Selected Projects
 
-    - #styled-link("https://posaune0423.com")[posaune0423.com]: Portfolio site recreating the PlayStation 2 startup and browser UX with Three.js, React Three Fiber, and custom interaction design.
+    - #styled-link("https://posaune0423.com")[posaune0423.com]: Portfolio site recreating the PlayStation 2 startup and browser UX with Three.js, React Three Fiber, custom interaction design, and deployment on Cloudflare using Vinext.
     - #styled-link("https://doomindex.fun")[DOOM INDEX]: Cloudflare-first generative art engine turning live market context into on-chain paintings with hourly generation, Arweave asset storage, framed GLB output, and Solana minting.
 
     == Selected OSS
@@ -86,8 +87,8 @@
 
     == Skills
 
-    - TypeScript, React, Next.js, Node.js, Rust, Solidity, Cairo
-    - Cloudflare Workers, AWS, GCP, PostgreSQL, Docker, AI workflows, smart contracts
+    - TypeScript, React, Next.js, Rust, Solidity, Cairo, Go, Python
+    - Cloudflare, AWS, GCP, PostgreSQL, Docker, AI workflows, smart contracts
     - Product engineering, frontend architecture, developer tooling, AI systems, and on-chain applications
 
     == Education

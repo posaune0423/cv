@@ -1,5 +1,8 @@
-#let primary_colour = rgb("#18324A")
-#let link_colour = rgb("#496A86")
+#let primary_colour = rgb("#A86F1A")
+#let link_colour = rgb("#8C641F")
+#let muted_colour = rgb("#6B6255")
+#let neutral_colour = rgb("#D9D2C8")
+#let sans_font = "TeX Gyre Heros"
 
 #let icon(name, shift: 1.5pt) = {
   box(
@@ -31,7 +34,7 @@
 }
 
 #let term(period, location) = {
-  text(9pt, fill: rgb("#5B6673"))[#icon("calendar") #period #h(1fr) #icon(
+  text(9pt, fill: muted_colour)[#icon("calendar") #period #h(1fr) #icon(
       "location",
     ) #location]
 }
@@ -46,7 +49,7 @@
   h(1fr)
 
   while (not done) {
-    let colour = rgb("#c0c0c0") // grey
+    let colour = neutral_colour
 
     if (i <= rating) {
       colour = primary_colour
@@ -85,7 +88,7 @@
     title: name + "'s CV",
     author: name,
   )
-  set text(10.15pt, font: "Inter")
+  set text(10.15pt, font: sans_font)
   set page(
     margin: (x: 60pt, y: 56pt),
   )
@@ -93,7 +96,7 @@
   show heading.where(
     level: 1,
   ): it => text(
-    font: "Inter",
+    font: sans_font,
     weight: 750,
     size: 24pt,
     fill: primary_colour,
@@ -103,7 +106,7 @@
   show heading.where(
     level: 2,
   ): it => text(
-    font: "Inter",
+    font: sans_font,
     weight: 720,
     fill: primary_colour,
     [
@@ -116,7 +119,7 @@
   show heading.where(
     level: 3,
   ): it => text(
-    font: "Inter",
+    font: sans_font,
     weight: 700,
     it.body,
   )
@@ -124,7 +127,7 @@
   show heading.where(
     level: 4,
   ): it => text(
-    font: "Inter",
+    font: sans_font,
     weight: 600,
     fill: primary_colour,
     it.body,
