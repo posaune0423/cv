@@ -10,25 +10,15 @@ interface Project {
 }
 
 const projects: Project[] = [
-  // AI Tools
-  { owner: "ryoppippi", repo: "ccusage", name: "ccusage" },
-  { owner: "ryoppippi", repo: "SiteMCP", name: "SiteMCP" },
-  { owner: "ryoppippi", repo: "curxy", name: "curxy" },
-
-  // Web Development / TypeScript Ecosystem
-  { owner: "ryoppippi", repo: "unplugin-typia", name: "unplugin-typia" },
-  { owner: "ryoppippi", repo: "pkg-to-jsr", name: "pkg-to-jsr" },
-  { owner: "ryoppippi", repo: "mirror-jsr-to-npm", name: "mirror-jsr-to-npm" },
+  { owner: "posaune0423", repo: "use-haptic", name: "use-haptic" },
+  { owner: "posaune0423", repo: "mdv", name: "mdv" },
   {
-    owner: "ryoppippi",
-    repo: "vim-svelte-inspector",
-    name: "vim-svelte-inspector",
+    owner: "posaune0423",
+    repo: "kms-viem-account-mini",
+    name: "kms-viem-account-mini",
   },
-  { owner: "ryoppippi", repo: "sveltweet", name: "sveltweet" },
-
-  // Zig
-  { owner: "ryoppippi", repo: "zigcv", name: "zigcv" },
-  { owner: "ryoppippi", repo: "nyancat.zig", name: "nyancat.zig" },
+  { owner: "posaune0423", repo: "uuid256", name: "uuid256" },
+  { owner: "posaune0423", repo: "portfolio", name: "portfolio" },
 ];
 
 async function fetchStarCount(owner: string, repo: string): Promise<number> {
@@ -73,7 +63,7 @@ async function processInBatches<T, R>(
 }
 
 if (import.meta.main) {
-  const typstPath = "ryotaro_kimura.typ";
+  const typstPath = "asuma_yamada.typ";
   let content = await Bun.file(typstPath).text();
   let updated = false;
 

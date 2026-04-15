@@ -45,7 +45,7 @@
       redirects = [
         {
           from = "/*";
-          to = "/ryotaro_kimura.pdf";
+          to = "/asuma_yamada.pdf";
           status = 200;
         }
       ];
@@ -54,7 +54,15 @@
         "$schema" =
           "https://raw.githubusercontent.com/cloudflare/workers-sdk/refs/heads/main/packages/wrangler/config-schema.json";
         name = "cv";
+        account_id = "7046457855b37423c07b1b0c6014fe33";
         compatibility_date = "2025-01-29";
+        workers_dev = false;
+        routes = [
+          {
+            pattern = "cv.posaune0423.com";
+            custom_domain = true;
+          }
+        ];
         assets = {
           directory = ".";
           not_found_handling = "none";
@@ -100,7 +108,7 @@
         in
         {
           default = pkgs.stdenvNoCC.mkDerivation {
-            pname = "ryoppippi-cv";
+            pname = "asuma-yamada-cv";
             version = "1.0.0";
 
             src = cleanedSource;
@@ -111,7 +119,7 @@
 
             buildPhase = ''
               runHook preBuild
-              typst compile ./ryotaro_kimura.typ --font-path ${ibmPlexFonts}/share/fonts/opentype
+              typst compile ./asuma_yamada.typ --font-path ${ibmPlexFonts}/share/fonts/opentype
               runHook postBuild
             '';
 
@@ -167,8 +175,8 @@
               }
               ''
                 cp -r $src/* .
-                typst compile ./ryotaro_kimura.typ --font-path ${ibmPlexFonts}/share/fonts/opentype
-                pages=$(qpdf --show-npages ./ryotaro_kimura.pdf)
+                typst compile ./asuma_yamada.typ --font-path ${ibmPlexFonts}/share/fonts/opentype
+                pages=$(qpdf --show-npages ./asuma_yamada.pdf)
                 if [ "$pages" -ne 2 ]; then
                   echo "ERROR: PDF has $pages pages, expected 2"
                   exit 1
