@@ -10,6 +10,8 @@ extend-ignore-re = [
 typ = 'typ'
 Realized = 'Realized'
 substituters = 'substituters'
+Fiber = 'Fiber'
+personalized = 'personalized'
 
 [files]
 extend-exclude = ['*.svg', "*.ttf", '*.css', '*.js', '*.html', '*.ts']

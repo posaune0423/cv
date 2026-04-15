@@ -104,7 +104,12 @@
         system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          ibmPlexFonts = pkgs.ibm-plex;
+          cvFontPackages = [
+            pkgs.inter
+          ];
+          typstFontArgs = builtins.concatStringsSep " " (
+            map (fontPkg: "--font-path ${fontPkg}/share/fonts") cvFontPackages
+          );
         in
         {
           default = pkgs.stdenvNoCC.mkDerivation {
@@ -119,7 +124,7 @@
 
             buildPhase = ''
               runHook preBuild
-              typst compile ./asuma_yamada.typ --font-path ${ibmPlexFonts}/share/fonts/opentype
+              typst compile ./asuma_yamada.typ ${typstFontArgs}
               runHook postBuild
             '';
 
@@ -143,7 +148,12 @@
         system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          ibmPlexFonts = pkgs.ibm-plex;
+          cvFontPackages = [
+            pkgs.inter
+          ];
+          typstFontArgs = builtins.concatStringsSep " " (
+            map (fontPkg: "--font-path ${fontPkg}/share/fonts") cvFontPackages
+          );
           pre-commit-check = git-hooks.lib.${system}.run {
             src = ./.;
             hooks = {
@@ -175,7 +185,7 @@
               }
               ''
                 cp -r $src/* .
-                typst compile ./asuma_yamada.typ --font-path ${ibmPlexFonts}/share/fonts/opentype
+                typst compile ./asuma_yamada.typ ${typstFontArgs}
                 pages=$(qpdf --show-npages ./asuma_yamada.pdf)
                 if [ "$pages" -ne 2 ]; then
                   echo "ERROR: PDF has $pages pages, expected 2"
@@ -215,7 +225,12 @@
         system:
         let
           pkgs = nixpkgs.legacyPackages.${system};
-          ibmPlexFonts = pkgs.ibm-plex;
+          cvFontPackages = [
+            pkgs.inter
+          ];
+          typstFontPaths = builtins.concatStringsSep ":" (
+            map (fontPkg: "${fontPkg}/share/fonts") cvFontPackages
+          );
           pre-commit-check = git-hooks.lib.${system}.run {
             src = ./.;
             hooks = {
@@ -242,7 +257,7 @@
               nixd
             ];
             shellHook = ''
-              export TYPST_FONT_PATHS="${ibmPlexFonts}/share/fonts/opentype"
+              export TYPST_FONT_PATHS="${typstFontPaths}"
               ${pre-commit-check.shellHook}
             '';
           };

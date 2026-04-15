@@ -1,5 +1,5 @@
-#let primary_colour = rgb("#3E0C87") // vivid purple
-#let link_colour = rgb("#12348e") // blue
+#let primary_colour = rgb("#18324A")
+#let link_colour = rgb("#496A86")
 
 #let icon(name, shift: 1.5pt) = {
   box(
@@ -31,7 +31,9 @@
 }
 
 #let term(period, location) = {
-  text(9pt)[#icon("calendar") #period #h(1fr) #icon("location") #location]
+  text(9pt, fill: rgb("#5B6673"))[#icon("calendar") #period #h(1fr) #icon(
+      "location",
+    ) #location]
 }
 
 #let max_rating = 5
@@ -83,14 +85,26 @@
     title: name + "'s CV",
     author: name,
   )
-  set text(9.7pt, font: "IBM Plex Sans")
+  set text(10.15pt, font: "Inter")
   set page(
-    margin: (x: 54pt, y: 52pt),
+    margin: (x: 60pt, y: 56pt),
+  )
+
+  show heading.where(
+    level: 1,
+  ): it => text(
+    font: "Inter",
+    weight: 750,
+    size: 24pt,
+    fill: primary_colour,
+    it.body,
   )
 
   show heading.where(
     level: 2,
   ): it => text(
+    font: "Inter",
+    weight: 720,
     fill: primary_colour,
     [
       #{ it.body }
@@ -101,24 +115,32 @@
 
   show heading.where(
     level: 3,
-  ): it => text(it.body)
+  ): it => text(
+    font: "Inter",
+    weight: 700,
+    it.body,
+  )
 
   show heading.where(
     level: 4,
   ): it => text(
+    font: "Inter",
+    weight: 600,
     fill: primary_colour,
     it.body,
   )
 
-  [= #name]
-
-  findMe(links)
-
-  tagline
+  [
+    = #name
+    #v(3pt)
+    #findMe(links)
+    #v(6pt)
+    #tagline
+  ]
 
   columns(
     2,
-    gutter: 15pt,
+    gutter: 17pt,
     content,
   )
 }

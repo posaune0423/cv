@@ -12,13 +12,6 @@ interface Project {
 const projects: Project[] = [
   { owner: "posaune0423", repo: "use-haptic", name: "use-haptic" },
   { owner: "posaune0423", repo: "mdv", name: "mdv" },
-  {
-    owner: "posaune0423",
-    repo: "kms-viem-account-mini",
-    name: "kms-viem-account-mini",
-  },
-  { owner: "posaune0423", repo: "uuid256", name: "uuid256" },
-  { owner: "posaune0423", repo: "portfolio", name: "portfolio" },
 ];
 
 async function fetchStarCount(owner: string, repo: string): Promise<number> {
