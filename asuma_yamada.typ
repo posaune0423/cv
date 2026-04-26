@@ -26,10 +26,10 @@
 
     === Co-Founder / CTO \
     _Daiko Labs_\
-    #term[Apr 2025 --- Present][Tokyo / New York]
+    #term[Apr 2025 --- Dec 2025][Tokyo / New York]
 
-    - Building #styled-link("https://www.daiko.ai/en")[Daiko] in a *2-person* founding team, shipping a Solana-native trading product with wallet intelligence, AI-powered sell signals, and multi-surface delivery.
-    - Implemented Solana DEX indexers and built the product as a solo engineer across finance and AI, developing strong working knowledge of Solana, DEXs, stablecoins, and traditional financial market structures alongside agents, notification pipelines, and trading workflows.
+    - Built #styled-link("https://www.daiko.ai/en")[Daiko] in a *2-person* founding team, shipping a Solana-native trading product with wallet intelligence, personalized AI sell signals, alerts, and wallet-driven trading workflows.
+    - Implemented Solana DEX indexers, token and wallet analytics, notification pipelines, and the core product as a solo engineer, developing deep working knowledge of Solana, DEXs, stablecoins, and traditional financial market structures.
 
     === Contract & game engineer \
     _PixeLAW_\
@@ -71,19 +71,19 @@
     == Awards & Speaking
 
     - #styled-link("https://x.com/ProtocolCamp/status/2011649545470689371")[SMBC Nikko Track Winner, Protocol Camp]: Daiko won *USD 5K* from SMBC Nikko Securities, one of Japan's major securities firms, for advancing DeFi decision-making with AI-powered trading agents.
-    - #styled-link("https://www.starknet.io/grants/seed-grants/")[Starknet Foundation Seed Grant] (USD 25K), Sep 2025 --- Present: Received funding for p_dash and Pixelaw, a fully on-chain game and Starknet protocol built with CairoVM.
+    - #styled-link("https://www.starknet.io/grants/seed-grants/")[Starknet Foundation Seed Grant] (USD 25K), Sep 2025 --- Dec 2025: Received funding for p_dash and Pixelaw, a fully on-chain game built on Starknet with CairoVM.
     - #styled-link("https://arena.colosseum.org/projects/explore/daiko")[Colosseum Breakout Hackathon] AI Track 4th Place, Mar 2025 --- May 2025: Daiko AI placed 4th with personalized AI-powered sell signals for Solana traders.
     - #styled-link("https://www.youtube.com/watch?v=Oa37E_jVEo4&t=1916s")[Solana Developer Bootcamp 2026 - Session 1]: Spoke on the Solana Foundation main channel for Solana Japan.
 
     == Selected Projects
 
-    - #styled-link("https://posaune0423.com")[posaune0423.com]: Portfolio site recreating the PlayStation 2 startup and browser UX with Three.js, React Three Fiber, custom interaction design, and deployment on Cloudflare using Vinext.
-    - #styled-link("https://doomindex.fun")[DOOM INDEX]: Cloudflare-first generative art engine turning live market context into on-chain paintings with hourly generation, Arweave asset storage, framed GLB output, and Solana minting.
+    - #styled-link("https://posaune0423.com")[posaune0423.com]: Next.js portfolio recreating the PlayStation 2 startup and browser UX with Three.js, React Three Fiber, custom interaction design, and Cloudflare Workers deployment via OpenNext.
+    - #styled-link("https://doomindex.fun")[DOOM INDEX]: Cloudflare-first generative art project using Workers, KV, D1, and R2 to turn live market context into on-chain paintings, launch a pump.fun token that reached *USD 377K ATH*, and make generated art mintable as NFTs.
 
     == Selected OSS
 
     - #styled-link("https://github.com/posaune0423/use-haptic")[use-haptic] (#icon("star")84): React hook for Safari haptic feedback via the `input[switch]` API.
-    - #styled-link("https://github.com/posaune0423/mdv")[mdv] (#icon("star")10): Rust-based Markdown viewer for the terminal with image, diagram, and typography support.
+    - #styled-link("https://github.com/posaune0423/mdv")[mdv] (#icon("star")11): Browser-quality Markdown viewer for Ghostty and Kitty, built in Rust with WebKit snapshots and the Kitty Graphics Protocol to render GitHub-styled docs, images, Mermaid diagrams, syntax highlighting, and GFM callouts in the terminal.
 
     == Skills
 
