@@ -28,16 +28,18 @@
     _Daiko Labs_\
     #term[Apr 2025 --- Dec 2025][Tokyo / New York]
 
-    - Built #styled-link("https://www.daiko.ai/en")[Daiko] in a *2-person* founding team, shipping a Solana-native trading product with wallet intelligence, personalized AI sell signals, alerts, and wallet-driven trading workflows.
-    - Implemented Solana DEX indexers, token and wallet analytics, notification pipelines, and the core product as a solo engineer, developing deep working knowledge of Solana, DEXs, stablecoins, and traditional financial market structures.
+    - Built #styled-link("https://www.daiko.ai/en")[Daiko] as a founding CTO, shipping a Solana-native trading product with wallet intelligence and AI sell signals.
+    - Developed a high-speed Solana transaction indexer in *Rust* to collect and analyze trading data in *TimescaleDB*.
+    - Built an LLM-powered application enabling natural language queries and analysis of complex on-chain trading data.
+    - Solo-designed and implemented the entire system architecture, including *Telegram integration* and automated trading bots.
 
     === Contract & game engineer \
     _PixeLAW_\
     #term[Aug 2024 --- 2025][Remote]
 
-    - Built product features across Cairo contracts, React frontends, and high-performance WebGL gameplay systems.
-    - Built fully on-chain game logic and frontend systems on Starknet, contributing to a *USD 25K* Starknet Foundation Seed Grant.
-    - Contributed commits to core libraries in the Dojo ecosystem, including dojo and dojo.js, while feeding implementation learnings back into the framework.
+    - Designed and implemented *Full-on-chain Game protocols* using *Cairo* (Rust-based language) on Starknet.
+    - Developed high-performance game clients using *Three.js* and *Phaser.js*, contributing to a *USD 25K* Starknet Foundation Seed Grant.
+    - Contributed to the *Dojo Framework* (OSS), including core libraries like `dojo` and `dojo.js`, feeding implementation learnings back into the framework.
 
     === Software Engineer \
     _DeNA Co., Ltd._\
@@ -51,15 +53,17 @@
     _VELVETT PTE. LTD._\
     #term[Jun 2023 --- Mar 2024][Singapore / Remote]
 
-    - Led engineering for #styled-link("https://app.unikura.xyz/")[Unikura], a global startup that raised *USD 3M*, across product design, frontend, backend, and smart contract delivery.
-    - Drove serverless architecture and technical decision-making in an international English-speaking team, generating *50,000+* on-chain transactions through the product.
+    - Led engineering for #styled-link("https://app.unikura.xyz/")[Unikura] (USD 3M seed), owning the design and implementation of an *NFT Marketplace* and *Gacha system* using *Solidity*.
+    - Architected *RWA (Real World Asset)* systems, bridging on-chain assets with physical logistics and delivery operations.
+    - Drove technical decision-making in an international team, generating *50,000+* on-chain transactions.
 
     === Software Engineer \
     _Ango-ya LLC / VWBL Protocol_\
     #term[Dec 2021 --- 2023][Remote]
 
-    - Built protocol implementations, TypeScript SDKs, demo apps, landing pages, and supporting tools for the #styled-link("https://vwbl-protocol.org/")[VWBL Protocol] NFT access-control protocol.
-    - Worked across access-control flows, frontend and backend integration, package releases, and protocol-level enablement for client projects.
+    - Designed and implemented the core protocol for *decentralized access control* for NFTs using *Solidity*.
+    - Built protocol implementations, TypeScript SDKs, and supporting tools for the #styled-link("https://vwbl-protocol.org/")[VWBL Protocol].
+    - Worked across access-control flows and protocol-level enablement for enterprise client projects.
 
     === Frontend Engineer \
     _CoinOtaku Inc._\
