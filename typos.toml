@@ -13,6 +13,8 @@ substituters = 'substituters'
 Fiber = 'Fiber'
 personalized = 'personalized'
 Heros = 'Heros'
+analyze = 'analyze'
+decentralized = 'decentralized'
 
 [files]
 extend-exclude = ['*.svg', "*.ttf", '*.css', '*.js', '*.html', '*.ts']
