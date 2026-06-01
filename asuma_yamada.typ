@@ -20,7 +20,7 @@
       display: "linkedin.com/in/posaune0423",
     ),
   ),
-  tagline: [Software engineer building AI products, web3 applications, and open source developer tools across TypeScript, smart contracts, and product-focused full-stack systems.],
+  tagline: [Full-stack engineer combining EVM, SVM, and CairoVM blockchain experience with AI agent development, AI-accelerated delivery, and securities/finance knowledge.],
   [
     == Experience
 
@@ -31,15 +31,15 @@
     - Built #styled-link("https://www.daiko.ai/en")[Daiko] as a founding CTO, shipping a Solana-native trading product with wallet intelligence and AI sell signals.
     - Developed a high-speed Solana transaction indexer in *Rust* to collect and analyze trading data in *TimescaleDB*.
     - Built an LLM-powered application enabling natural language queries and analysis of complex on-chain trading data.
-    - Solo-designed and implemented the entire system architecture, including *Telegram integration* and automated trading bots.
+    - Solo-designed and implemented the end-to-end product architecture across the PWA, Telegram Bot, Rust indexer.
 
-    === Contract & game engineer \
+    === Smart Contract & Game Developer \
     _PixeLAW_\
     #term[Aug 2024 --- 2025][Remote]
 
-    - Designed and implemented *Full-on-chain Game protocols* using *Cairo* (Rust-based language) on Starknet.
-    - Developed high-performance game clients using *Three.js* and *Phaser.js*, contributing to a *USD 25K* Starknet Foundation Seed Grant.
-    - Contributed to the *Dojo Framework* (OSS), including core libraries like `dojo` and `dojo.js`, feeding implementation learnings back into the framework.
+    - Designed and implemented *Full-on-chain Game protocol* using *Cairo* (Rust-based language) on Starknet.
+    - Developed high-performance game clients using *Three.js* and *Phaser.js* for a full-on-chain game project awarded a *USD 25K* Starknet Foundation Seed Grant.
+    - Collaborated on-site with the *Dojo Framework* core team, advancing the project while contributing OSS commits to core packages (`dojo`, `dojo.js`).
 
     === Software Engineer \
     _DeNA Co., Ltd._\
@@ -61,11 +61,11 @@
     _Ango-ya LLC / VWBL Protocol_\
     #term[Dec 2021 --- 2023][Remote]
 
-    - Designed and implemented the core protocol for *decentralized access control* for NFTs using *Solidity*.
+    - Designed and implemented the core protocol for *Decentralized Access Control* for NFTs using *Solidity*.
     - Built protocol implementations, TypeScript SDKs, and supporting tools for the #styled-link("https://vwbl-protocol.org/")[VWBL Protocol].
     - Worked across access-control flows and protocol-level enablement for enterprise client projects.
 
-    === Frontend Engineer \
+    === Software Engineer \
     _CoinOtaku Inc._\
     #term[May 2021 --- Mar 2022][Tokyo, Japan]
 
@@ -75,7 +75,7 @@
     == Awards & Speaking
 
     - #styled-link("https://x.com/ProtocolCamp/status/2011649545470689371")[SMBC Nikko Track Winner, Protocol Camp]: Daiko won *USD 5K* from SMBC Nikko Securities, one of Japan's major securities firms, for advancing DeFi decision-making with AI-powered trading agents.
-    - #styled-link("https://www.starknet.io/grants/seed-grants/")[Starknet Foundation Seed Grant] (USD 25K), Sep 2025 --- Dec 2025: Received funding for p_dash and Pixelaw, a fully on-chain game built on Starknet with CairoVM.
+    - #styled-link("https://www.starknet.io/grants/seed-grants/")[Starknet Foundation Seed Grant] (USD 25K), Sep 2025 --- Dec 2025: Received funding for p_dash and PixeLAW, a fully on-chain game built on Starknet.
     - #styled-link("https://arena.colosseum.org/projects/explore/daiko")[Colosseum Breakout Hackathon] AI Track 4th Place, Mar 2025 --- May 2025: Daiko AI placed 4th with personalized AI-powered sell signals for Solana traders.
     - #styled-link("https://www.youtube.com/watch?v=Oa37E_jVEo4&t=1916s")[Solana Developer Bootcamp 2026 - Session 1]: Spoke on the Solana Foundation main channel for Solana Japan.
 
@@ -86,14 +86,14 @@
 
     == Selected OSS
 
-    - #styled-link("https://github.com/posaune0423/use-haptic")[use-haptic] (#icon("star")84): React hook for Safari haptic feedback via the `input[switch]` API.
-    - #styled-link("https://github.com/posaune0423/mdv")[mdv] (#icon("star")11): Browser-quality Markdown viewer for Ghostty and Kitty, built in Rust with WebKit snapshots and the Kitty Graphics Protocol to render GitHub-styled docs, images, Mermaid diagrams, syntax highlighting, and GFM callouts in the terminal.
+    - #styled-link("https://github.com/posaune0423/use-haptic")[use-haptic] (#icon("star")86): React hook for Safari haptic feedback via the `input[switch]` API.
+    - #styled-link("https://github.com/posaune0423/mdv")[mdv] (#icon("star")18): Browser-quality Markdown viewer for Ghostty and Kitty, built in Rust with WebKit snapshots and the Kitty Graphics Protocol to render GitHub-styled docs, images, Mermaid diagrams, syntax highlighting, and GFM callouts in the terminal.
 
     == Skills
 
-    - TypeScript, React, Next.js, Rust, Solidity, Cairo, Go, Python
-    - Cloudflare, AWS, GCP, PostgreSQL, Docker, AI workflows, smart contracts
-    - Product engineering, frontend architecture, developer tooling, AI systems, and on-chain applications
+    - TypeScript, React, Next.js, Node.js, Rust, Solidity, Cairo, Go, Python
+    - Cloudflare, AWS, GCP, PostgreSQL, Docker, AI workflows, Smart Contracts
+    - Founder mindset, product ownership, rapid execution, technical decision-making, and cross-functional collaboration
 
     == Education
 
