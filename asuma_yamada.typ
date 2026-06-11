@@ -20,7 +20,7 @@
       display: "linkedin.com/in/posaune0423",
     ),
   ),
-  tagline: [Full-stack engineer combining EVM, SVM, and CairoVM blockchain experience with AI agent development, AI-accelerated delivery, and securities/finance knowledge.],
+  tagline: [Full-stack engineer working across EVM, SVM, and CairoVM blockchain ecosystems, with experience in AI agent development, AI-accelerated delivery, and securities/finance.],
   [
     == Experience
 
